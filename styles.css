@@ -1,0 +1,32 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.red-border {
+    border: 2px solid red;
+}
+
+#guide {
+    display: flex;
+    background:#457B9D;
+}
+
+.guide-img{
+    width: 180px;
+    height: 250px;
+}
