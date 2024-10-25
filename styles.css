@@ -8,25 +8,104 @@ DARK BLUE: #1D3557
 
 */
 
+h3 {
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
 body {
     margin: 0;
     text-align: center;
+    color: white;
+    font-family: "Happy Monkey", serif;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 8px black;
+}
+
+.white-shadow {
+    text-shadow: 0px 0px 3px white;
+}
+
+.hero-section{
+    margin: 0px;
+    padding: 20px;
+}
+
+#HERO {
+    background-image: url("images/bannerWithLogo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    font-size: 30px;
+}
+
+#saga-enter{
+    padding-top: 350px;
+    margin: 0px;
+}
+
+a{
+    color: white;
+}
+
+#section-2{
+    background: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJtb3oxemR0M2VoczZqdHUxY3c1aWljMzJ1dXEyODZ0NWs1cW5tMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1J3rGigrYfx8aKqI/giphy.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(rgb(210, 143, 119), rgb(177, 177, 125)); */
+    color: white;
+}
+
+#charactor-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.job-title {
+    font-size: 30px;
+    font-weight: bold;
 }
 
 img {
-    width: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 70px;
 }
 
 .red-border {
     border: 2px solid red;
 }
 
+#guide-section{
+    background: url("https://media.istockphoto.com/id/177512311/de/foto/space-hintergrund-mit-sternen-universum-galaxy-und-nebel.jpg?s=2048x2048&w=is&k=20&c=dIXTUTpKMpQ33oMgs5C2nXOs8LSpu2wy73FGpTKb_0Y=");
+    padding: 20px;
+
+}
 #guide {
     display: flex;
-    background:#457B9D;
+    background:url("https://images.unsplash.com/photo-1604599481841-2147aee81b97?q=80&w=3628&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    justify-content: space-evenly;
+    width: 800px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 10px solid black;
+
 }
 
-.guide-img{
-    width: 180px;
-    height: 250px;
+#guide-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.guide-description{
+    font-size: 20px;
 }
